@@ -32,8 +32,8 @@ var correctQuestion = 0;
 var wrongQuestions = 0;
 var questionNumber = 5;
 var questionCounter = '[ ' + questionNumber + ' Questions left ' + ' ]';
-var question = prompt('What language associate with Sass ' + questionCounter);
-    if ( question.toUpperCase() === 'RUBY' ) {
+var question = prompt("What programming language that's also a snake " + questionCounter);
+    if ( question.toUpperCase() === 'PYTHON' ) {
         score += 1; 
         correctQuestion += 1;
     } else {
